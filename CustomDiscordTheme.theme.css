@@ -718,8 +718,8 @@ div[class*="nameDefault-"],
 div[class*="nameHovered-"],
 div[class*="nameCollapsed"],
 div[class*="nameHoveredCollapsed"] {
-  font-size: 15px;
-  text-transform: none; }
+  font-size: 12px;
+  text-transform: toUpperCase; }
 
 .form header {
   color: #fff; }
