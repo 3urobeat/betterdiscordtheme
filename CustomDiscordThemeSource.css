@@ -3391,7 +3391,7 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
   content: "Discord Theme by AlexFlipnote";
   width: 100%;
   height: auto;
-  padding: 0 0 6px;
+  padding: 2px 0px 2px;
   background: #191919;
   color: #FFF;
   font-size: 11px;
