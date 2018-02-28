@@ -1,4 +1,3 @@
-//META{"name":"Custom_Theme","description":"A simple customized discord theme. Original: https://betterdocs.net/collections/themes/products/discord-theme","author":"AlexFlipnote (customized: HerrEurobeat)","version":"1.0"}*//{}
 @charset "UTF-8";
 .theme-dark .chat .title-wrap {
   background-color: var(--dark-highlight);
