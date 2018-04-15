@@ -402,8 +402,7 @@
     background-position: center !important;
 }
 
-/*Additions from an other theme: https://betterdocs.net/collections/themes/products/discord-theme*/
-
+/*Additions from an other theme: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 .theme-dark .message-group .embed {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0); }
@@ -495,3 +494,95 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
 	border-radius: 25px;
 	overflow: hidden;
 	background: rgba(0,0,0,0.3); }
+	
+/*Custom buttons in themes settings: (Code by https://betterdocs.net/collections/themes/products/material-discord) */
+:root {
+	--accent-color: #913fb5;
+}
+
+
+
+#bd-settingspane-container .bda-right {
+	position: relative !important;
+	width: 100px !important;
+	height: 62px !important;
+}
+
+#bd-settingspane-container .bda-right button {
+	position: absolute;
+	right: -6px !important;
+	bottom: 0 !important;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper {
+	position: absolute !important;
+	width: 36px !important;
+	height: 14px !important;
+	top: 3px;
+	right: 0;
+	background: transparent !important;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch,
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch:before,
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch:after {
+	position: absolute;
+	content: " ";
+	transition: 200ms ease all;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: transparent !important;
+	border-radius: 7.5px;
+	cursor: pointer;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch:before {
+	width: 100%;
+	height: 100%;
+	background: rgba(65,65,65,0.65);
+	border-radius: 7.5px;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper .ui-switch:after {
+	width: 20px;
+	height: 20px;
+	top: -3px;
+	background: #777;
+	border-radius: 50%;
+	transform: translateX(-1px);
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper input:checked + .ui-switch:before {
+	background: #1a3c57;
+}
+
+#bd-settingspane-container .bda-right .ui-switch-wrapper input:checked + .ui-switch:after {
+	background: var(--accent-color);
+	transform: translateX(17px);
+}
+
+/*Custom guild member profile popout animation: (Code by https://betterdocs.net/collections/themes/products/discord-theme)*/
+@-webkit-keyframes user-popout-anim {
+  from {
+    -moz-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0; }
+  100% {
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+
+div[class*="userPopout-"] {
+  animation: user-popout-anim 350ms ease-in-out;
+}
