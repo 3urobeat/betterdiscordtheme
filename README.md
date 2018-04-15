@@ -1,7 +1,10 @@
-# Better Discord Theme
-To use it, clone CustomDiscordTheme.theme.css to your BetterDiscord Theme Folder. It will automatically get the newest version from GitHub.
+<div align="center">
+	<h1 align="center">~ Better Discord Themes ~</h1>
+	<strong>Themes for the Better Discord modification for Discord.</strong><br />https://betterdiscord.net/home/<br /><br />
+</div>
 
-This Better Discord Theme was made by AlexFlipnote (https://betterdocs.net/collections/themes/products/discord-theme) and was customized by me.
-Code for the buttons in themes settings was made by https://betterdocs.net/products/dark-matter .
-Code for search bar and chat bar underline was made by https://betterdocs.net/collections/themes/products/minimalcord .
-Code for the credits bar below your mute and deaf buttons was made by https://betterdocs.net/collections/themes/products/metro-for-discord .
+Join my Discord Server!
+https://discord.gg/q3KXW2P
+
+
+
