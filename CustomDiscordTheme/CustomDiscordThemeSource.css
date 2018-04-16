@@ -3322,14 +3322,6 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
 	--short-gradient-faded: linear-gradient(45deg, rgba(29,101,134,0.1), rgba(37,172,232,0.1));
 }
 
-.bda-slist li div:not(.bda-right):not(.bda-left):not(.scroller-wrap):not(.scroller):nth-of-type(1) {
-	float: none;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 100%;
-}
-
 .bda-slist .bda-right .ui-switch-wrapper {
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -3357,15 +3349,15 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
 }
 
 .ui-switch-checkbox {
-	background: blue !important;
+	background: blue;
 }
 
 .ui-switch-checkbox+.ui-switch {
-	background: rgba(255,255,255,0.2) !important;
+	background: rgba(255,255,255,0.2);
 }
 
 .ui-switch-checkbox:checked+.ui-switch {
-	background: var(--main-color) !important;
+	background: var(--main-color);
 	/*transform: translateX(20px);*/
 }
 
