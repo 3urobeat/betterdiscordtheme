@@ -586,3 +586,21 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
 div[class*="userPopout-"] {
   animation: user-popout-anim 350ms ease-in-out;
 }
+
+/* Blinking new messages bar: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+@-webkit-keyframes unread {  
+  0% { background-color: #faa61a; }
+  50% { background-color: rgba(250,166,26,0.2); }
+}
+
+.chat .new-messages-bar {
+    background-color: #faa61a;
+    margin-top: 10px;
+    -webkit-animation: unread 2s ease-in-out infinite;
+}
+
+/* Centered role names in member list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.theme-dark .channel-members h2, .theme-dark .membersGroup-3_dP5E {
+    color: #99aab5;
+    text-align: center;
+}

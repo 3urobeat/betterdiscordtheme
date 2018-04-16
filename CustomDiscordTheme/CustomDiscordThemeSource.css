@@ -3386,3 +3386,15 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
   color: #FFF;
   font-size: 11px;
   text-align: center; } 
+
+/* Blinking new messages bar: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+@-webkit-keyframes unread {  
+  0% { background-color: #faa61a; }
+  50% { background-color: rgba(250,166,26,0.2); }
+}
+
+.chat .new-messages-bar {
+    background-color: #faa61a;
+    margin-top: 10px;
+    -webkit-animation: unread 2s ease-in-out infinite;
+}
