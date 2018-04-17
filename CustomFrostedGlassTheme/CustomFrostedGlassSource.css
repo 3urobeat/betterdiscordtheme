@@ -604,3 +604,94 @@ div[class*="userPopout-"] {
     color: #99aab5;
     text-align: center;
 }
+
+/* Modified search bar: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
+.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
+    background-color: rgba(0, 0, 0, .5);
+    color: hsla(0,0%,100%,.8);
+}
+
+/* Modified quickswitcher: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.theme-dark div[class*="quickswitcher-"] {
+    background-color: rgba(0, 0, 0, .25);
+    color: hsla(0,0%,100%,.8); }
+  .theme-dark div[class*="quickswitcher-"] div[class*="resultFocused-"] {
+    background-color: rgba(0, 0, 0, .25);
+    color: hsla(0,0%,100%,.8); }
+  .theme-dark div[class*="quickswitcher-"] input[class*="input-"] {
+    background-color: rgba(0, 0, 0, .25);
+    color: hsla(0,0%,100%,.8);
+    box-shadow: 0; }
+
+/* Modified create DM menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme and https://betterdocs.net/collections/themes/products/dark-blue)*/    
+.themed-popout .header {
+  background: rgba(0, 0, 0, .25) !important; }
+.account, .theme-dark .private-channel-recipients-invite .friend {
+    background: rgba(0, 0, 0, .25)
+}
+  
+/* Modified hover friends color in friends table: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+ .theme-dark #friends .friends-table .friends-row:hover {
+	background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
+	
+}
+
+/* Modified hover chats color in dm list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.private-channels .channel:hover,
+.private-channels .channel.selected a, .private-channels .channel:hover a {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
+}
+
+/* Modified update news: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.theme-dark .header-3sp3cE, .theme-dark .separator-NBIcXB,
+.theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
+.theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer, .uploadModal-2KN6Mm .footer-4pOKm8 {
+    background: rgba(0, 0, 0, .25)
+}
+
+/* Modified playing user profile: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm, .topSectionSpotify-3744IX, .theme-dark .topSectionNormal-2LlRG1 {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
+}
+
+/* Modified autocomplete list: (Code by https://betterdocs.net/collections/themes/products/dark-blue)*/
+.theme-dark .channel-textarea-autocomplete-inner, .theme-dark .autocomplete-1TnWNR, .selectable-3iSmAf {
+    background: rgba(0, 0, 0, .5)
+}
+.theme-dark .channel-textarea-autocomplete-inner ul li.active, .theme-dark .selectorSelected-2M0IGv {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
+}
+
+/* Guild list blinking unread messages notification: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #e0961c;
+    -webkit-animation: unread 2s ease-in-out infinite;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+/* Modified guild settings drop down menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.popout-menu, .menu-3BZuDT {
+    background-color: rgba(0, 0, 0, .5);
+}
+.popout-menu .popout-menu-separator, .separator-1hpa3S {
+    border-bottom: 1px solid #1d232d;
+}

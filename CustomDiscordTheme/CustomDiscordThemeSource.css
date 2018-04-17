@@ -3398,3 +3398,9 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
     margin-top: 10px;
     -webkit-animation: unread 2s ease-in-out infinite;
 }
+
+/* Search bar in right color */
+.theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
+.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
+    background-color: var(--dark-primary);
+}
