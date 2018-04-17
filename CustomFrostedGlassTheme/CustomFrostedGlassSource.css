@@ -695,3 +695,25 @@ div[class*="userPopout-"] {
 .popout-menu .popout-menu-separator, .separator-1hpa3S {
     border-bottom: 1px solid #1d232d;
 }
+
+/* Modified reactions list menu */
+.theme-dark .reactors-2PjMP0 {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
+}
+.theme-dark .sidebar-32BRdp {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
+}
+
+/* Modified three dots menu in chat: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.small-popout-box {
+    background-color: rgba(0, 0, 0, .35);
+    border: 1px solid #101721;
+}
