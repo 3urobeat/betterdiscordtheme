@@ -468,13 +468,6 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
   div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] > svg > path {
     display: none; }
 
-.theme-dark .channel-notices .channel-notice {
-  background-color: var(--dark-highlight); }
-  .theme-dark .channel-notices .channel-notice .message div {
-    color: #fff; }
-  .theme-dark .channel-notices .channel-notice .message button {
-    background-color: var(--dark-primary); }
-
 
   .guilds-wrapper .guilds .friends-icon {
     background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_forum_white_24px.svg"); }
@@ -957,3 +950,61 @@ div[class*="regionSelectModal-"] {
       -moz-transition: all 200ms ease;
       -o-transition: all 200ms ease;
       border: 5px solid #27ae60; }
+	  
+	  
+/* Modified pinned messages list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */	  
+.theme-dark .themed-popout .header, .theme-dark .popout .messages-popout-wrap .header, .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+    background-color: transparent;
+}
+.theme-dark .messagesPopoutWrap-1VBR-j {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 5);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Modified help menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.form .control-group input[type=text],
+.form .control-group textarea {
+    color: #ccd2e8 !important;
+    border-bottom: 1px solid #282b30 !important;
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.need-help-modal .footer {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: 1px solid #040a10 !important;
+}
+.need-help-modal .header {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.need-help-modal .header h1 {
+    color: #7289da !important;
+}
+.need-help-modal .header input[type=text] {
+    box-shadow: 0 2px 1px #43b581 !important;
+}
+.need-help-modal .header input[type=text]:focus {
+    border-bottom: 1px solid #43b581 !important;
+}
+.need-help-modal a:hover {
+    color: #00ff6f !important;
+}
+
+
+/* Adjusted selected channel */
+.contentSelectedText-3j5CXt {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 85%,transparent);
+}
