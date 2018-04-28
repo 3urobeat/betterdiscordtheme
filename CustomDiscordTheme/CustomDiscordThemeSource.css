@@ -3404,3 +3404,29 @@ div[class*="userSettingsAccount-"] div[class*="cardPrimary-"] {
 .theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
     background-color: var(--dark-primary);
 }
+
+/* Channel and members list color fix */
+div[class*="container-"] div[class*="containerDefault-"] div[class*="content-"] {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+
+.theme-dark div[class*="membersWrap-"] div[class*="members-"] {
+  background-color: var(--dark-primary); }
+.theme-dark div[class*="membersWrap-"] div[class*="content"] {
+  background-color: var(--dark-primary); }
+.theme-dark div[class*="membersWrap-"] div[class*="memberOnline-"]:hover, .theme-dark div[class*="membersWrap-"] div[class*="memberOffline-"]:hover {
+  background-color: var(--dark-highlight); }
+
+
+div[class*="channels-"] {
+  background: var(--dark-primary); }
+  div[class*="justifyStart-"] div[class*="channels-"] div[class*="container-"] {
+    background: transparent; }
+  div[class*="channels-"] div[class*="container-"] div[class*="horizontal-"] {
+    padding-left: 23px; }
+    div[class*="channels-"] div[class*="container-"] div[class*="horizontal-"] > svg > path {
+      display: none; }
