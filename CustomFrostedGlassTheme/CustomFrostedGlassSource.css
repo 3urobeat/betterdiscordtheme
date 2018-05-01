@@ -12,6 +12,9 @@
 }.theme-dark .itemSubMenu-3ZgIw-:hover{
     background-color: rgba(0, 0, 0, .3)
 }
+.theme-dark.contextMenu-uoJTbz {
+    background: rgba(0,0,0,0.3)
+}
 .theme-dark .item-1XYaYf:hover {
     background: rgba(0, 0, 0, .3);
     color: #fff;
@@ -19,6 +22,15 @@
 .headerPlaying-2Q7mBy {
     background: rgba(0, 0, 0, 0.32);
 }
+.chat .messages-wrapper { 
+    margin-top: -48px; 
+  } 
+  .chat .content { 
+    overflow: visible; 
+  } 
+.strong.user-name::before {
+    content: "♥";
+  }
 .container-RYiLUQ {
     background-color:  transparent;
 }
@@ -36,20 +48,27 @@
 .theme-dark .layer, .theme-dark .layers {
     background: transparent;
 }
-.appMount-14L89u {
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    background-color: #202225;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    overflow: hidden;
-    position: absolute;
-    width: 100vw;
-    background: rgba(0,0,0,0.4);
+.appMount-3VJmYg {
+    background-image: var(--nonblurredimage);
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: transparent;
+}
+.theme-dark .menu-Sp6bN1 {
+    /* -webkit-box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1); */
+    background: rgba(0,0,0,0.6);
+    /* box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1); */
+}
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: rgba(240,71,71,.6);
+}
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: transparent;
+    box-shadow: none;
 }
 .guilds-wrapper {
     background-color: transparent;
@@ -63,6 +82,10 @@
     background-position: center;
     background-attachment: fixed;
     box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.2) !important;
+}
+.private-channels .channel.selected a {
+    background-color: transparent;
+    color: #fff;
 }
 .feed-jRZy6x {
     padding: 0 20px 20px;
@@ -97,7 +120,18 @@
     resize: none;
     width: 100%;
 }
-
+.membersGroup-3_dP5E {
+    border-bottom: 3px solid rgba(255, 255, 255, .3);
+    width: 80%;
+    height: auto !important;
+    padding: 2px 40px !important;
+    text-align: center !important;
+    margin: 10px auto;
+    font-weight: bold !important;
+    white-space: normal !important;
+    font-size: 90%;
+    text-transform: capitalize !important;
+}
 .news-XQhS0- {
     background-color: rgba(32, 34, 37, 0.50);
     border-radius: 3px;
@@ -186,7 +220,8 @@
     background-position: center;
 	background-attachment: fixed;
 }
-.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
     background-image: var(--blurredimage) !important;
     background-size: cover !important;
     background-position: center;
@@ -217,10 +252,97 @@
 .theme-dark .headerBar-cxbhPD {
     background: transparent;
 }
-.contentSelectedText-3j5CXt {
+.contentSelectedText-3wUhMi {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
+.message-group {
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+	margin-bottom: 20px;
+    border-radius: 10px;
+}
+.theme-dark .inner-zqa7da {
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+}
+.theme-dark .card-7JP0BX {
+    border-color: transparent;
+    color: #f6f6f7;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: transparent;
+    border-bottom-color: transparent;
+}
+.headerButtonColor-G7_f-V {
+    background: rgba(155,155,155,0.2);
+    color: #fff;
+}
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    border-color: transparent;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: transparent;
+}
+.article-FleDq5 {
+    -webkit-box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 300px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+.carousel-1Mb2Ud {
+    -webkit-transform: translateZ(0);
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+    height: 300px;
+    transform: translateZ(0);
+}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: rgba(0,0,0,0.2);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+    background-color: rgba(240,71,71,0.5)!important;
+}
+.private-channels .channel:hover a {
+    color: #fff;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+}
 .bda-slist .bda-description {
     color: #b0b6b9;
     overflow-y: auto;
@@ -255,7 +377,7 @@
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15) !important;
 }
-.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
     background-image: var(--blurredimage) !important;
     background-size: cover !important;
     background-position: center;
@@ -265,13 +387,13 @@
 .uploadModal-2KN6Mm .footer-4pOKm8 .button {
     margin-left: 10px;
 }
-.uploadModal-2KN6Mm {
+.uploadModal-2ifh8j {
     -ms-flex-direction: column;
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
     -webkit-filter: blur(0);
     -webkit-perspective: 1000;
-    background-color: #7289da;
+    background-color: rgba(114,137,218,0.2);
     border-radius: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,11 +403,15 @@
     min-height: 258px;
     perspective: 1000;
     width: 520px;
-    background-image: var(--blurredimage) !important;
-    background-size: cover !important;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15) !important;
+}
+.uploadModal-2ifh8j .inner-3nWsbo {
+    border: none;
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    margin: 0 5px 0 0;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    border: none;
 }
 .backdrop-2ohBEd {
     background-image: var(--blurredimage) !important;
@@ -314,12 +440,130 @@
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15) !important;
 }
+.themedPopout-25DgLi {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,10%);
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+    /* border: 1px solid hsla(0,0%,75%,.3); */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 10px 0 rgba(0,0,0,.1); */
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,20%);
+    background-color: rgba(0,0,0,0.2);
+    /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.2); */
+}
+.mention-1f5kbO {
+    background-color: rgba(240,71,71,.4);
+}
+.mention-1f5kbO:hover {
+    background-color: rgba(240,71,71,.8);
+}
+.topSectionPlaying-1J5E4n {
+    background: rgba(114,137,218,0.6);
+}
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
+    /* -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.6); */
+    /* box-shadow: 0 2px 8px rgba(0,0,0,.6); */
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,20%);
+    background-color: rgba(0,0,0,0.5);
+    /* border: 1px solid rgba(28,36,43,.6); */
+    /* box-shadow: 0 2px 10px 0 rgba(0,0,0,.2); */
+}
 .theme-dark .body-3_tdh6 {
     background-image: var(--blurredimage) !important;
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(0, 0, 0, 0.1) !important;
+}
+.theme-dark .item-1GzJrl:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+.theme-dark .footer-2yfCgX {
+    /* -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6); */
+    background-color: rgba(0,0,0,0.2);
+    /* box-shadow: inset 0 1px 0 rgba(47,49,54,.6); */
+}
+.theme-dark .modal-3HD5ck {
+    /* -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2); */
+    background-color: rgba(0,0,0,0.2);
+    /* box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2); */
+}
+.theme-dark .status-2s6iDp {
+    border-color: transparent;
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
+    border-color: transparent;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp {
+    border-color: transparent;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+.mask-3OgeRz {
+    -webkit-mask: none;
+    -webkit-mask-size: 100%;
+    mask: none;
+    mask-size: 100%;
+    mask-type: luminance;
+}
+.statusDndProfile-33i43o {
+    /* -webkit-box-shadow: inset 0 0 0 2px hsla(0,85%,84%,.6); */
+    /* box-shadow: inset 0 0 0 2px hsla(0,85%,84%,.6); */
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+    /* -webkit-box-shadow: 0 0 6px 4px #36393e; */
+    /* background-color: #36393e; */
+    /* box-shadow: 0 0 6px 4px #36393e; */
+}
+.messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+    /* -webkit-box-shadow: 0 0 6px 4px #fff; */
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 6px 4px #fff; */
+}
+.bd-modal-wrapper .header {
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: none;
+}
+.bd-modal-wrapper .bd-modal-body {
+    background-color: rgba(0,0,0,0.2);
+}
+.headerSpotify-zpWxgT {
+    background: rgba(29,185,84,0.5);
+}
+.bd-modal-wrapper .footer {
+    background: rgba(0,0,0,0.3);
+}
+.theme-dark.contextMenu-HLZMGh {
+    -webkit-box-shadow: none;
+    background: rgba(0,0,0,0.5);
+    box-shadow: none;
+}
+.theme-dark .itemSubMenu-1vN_Yn {
+    background: url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+}
+.theme-dark .itemSubMenu-1vN_Yn:hover {
+    background: rgba(0,0,0,0.3) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+}
+.theme-dark .item-1Yvehc:hover {
+    background: rgba(0,0,0,0.3);
 }
 .userPopout-11hFKo {
     border-radius: 10px;
@@ -349,8 +593,40 @@
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px hsla(218,5%,47%,.3) !important;
 }
+.themeDefault-24hCdX.sizeDefault-2YlOZr {
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.15); */
+    /* box-shadow: inset 0 1px 1px rgba(0,0,0,.15); */
+}
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after {
+    /* -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.3); */
+    /* box-shadow: 0 2px 4px rgba(0,0,0,.3); */
+}
+.theme-dark .accountBtnInner-sj5jLs {
+    background-color: rgba(0,0,0,0.2);
+    border-color: transparent;
+}
+.theme-dark .accountBtnInner-sj5jLs:hover {
+    background-color: rgba(0,0,0,0.4);
+    border-color: transparent;
+}
+.theme-dark .user-settings-games .game {
+    -webkit-box-shadow: 0 1px 0 0 #4f545c;
+    box-shadow: none;
+}
+.theme-dark .button-mM-y8i {
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 1px 5px 0 rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: none;
+}
+.theme-dark .card-FDVird:before {
+    background-color: rgba(0,0,0,0.2);
+    border-color: transparent;
+}
+.themeDefault-24hCdX:before {
+    background-color: transparent;
+}
 .bda-slist li {
-    background: rgba(32,34,37,.6);
+    border: transparent;
     border-radius: 5px;
     padding: 5px 7px;
     max-height: 175px;
@@ -360,8 +636,34 @@
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .04) !important;
 }
-.backdrop-2ohBEd {
+.tooltip.tooltip-black.tooltip-top:after {
+    border-top-color: transparent;
+}
+.theme-dark .headerNormal-T_seeN {
+    background-color: rgba(0,0,0,0.2);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .body-3ND3kc {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .topSectionNormal-2-vo2m {
+    background-color: rgba(0,0,0,0.3);
+}
+.headerPlaying-j0WQBV {
+    background: rgba(114,137,218,0.4);
+}
+.userPopout-3XzG_A {
+    -webkit-box-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    overflow: hidden;
+    width: 250px;
+}
+.backdrop-1ocfXc {
     opacity: 1;
     transform: translateZ(0px);
     background-image: var(--blurredimage) !important;
@@ -369,6 +671,55 @@
     background-position: center;
     background-attachment: fixed;
     box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .1) !important;
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .1) !important;
+}
+.theme-dark .select-2TCrqx .Select-option.is-selected {
+    background-color: rgba(0,0,0,0.2)
+}
+.theme-dark .select-2TCrqx .Select-control {
+    border: transparent;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(0, 0, 0, .2) !important;
+}
+.theme-dark .select-2TCrqx .Select-menu-outer {
+    border-color: transparent;
+    background-image: var(--nonblurredimage);
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .04) !important;
+}
+.theme-dark .cardPrimaryEditable-3KtE4g {
+    background: rgba(0,0,0,0.2);
+    border-color: transparent;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(0, 0, 0, .2) !important;
+}
+.theme-dark .bar-2Qqk5Z {
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(155,155,155,0.2) !important;
+}
+.theme-dark .autocomplete-1vrmpx {
+    background-image: var(--nonblurredimage);
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .04) !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner {
     background: #2f3136;
@@ -382,6 +733,30 @@
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .04) !important;
+}
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover {
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .1) !important;
+}
+.theme-dark .cardPrimaryOutline-29Ujqw {
+    border-color: transparent;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .02) !important;
+}
+.theme-dark .cardPrimary-1Hv-to {
+    border-color: transparent;
+    background-image: var(--blurredimage) !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, .04) !important;
 }
 .chat .avatar-large {
     -webkit-transition: opacity .2s ease;
@@ -393,18 +768,35 @@
 .mention-RlZ5F3 {
     background-color: rgba(240, 71, 71, 0.5);
 }
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(0, 0, 0, .05);
+}
+.container-2lgZY8 {
+    background-color: transparent;
+}
+.channels-Ie2l6A {
+    background-color: transparent;
+}
+.theme-dark .title-3qD0b- {
+    background: transparent;
+}
+.theme-dark .members-1998pB {
+    background-color: transparent;
+}
+.theme-dark .typing-2GQL18 {
+    background-color: transparent;
+}
+.container-PNkimc {
+    background-color: transparent;
+}
 .app {
     background-image: var(--nonblurredimage);
 	background-size: cover !important;
     background-position: center !important;
+    background-attachment: fixed;
 }
 
-/*Additions from an other theme: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
-.theme-dark .message-group .embed {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-color: rgba(0, 0, 0, 0); }
-  .theme-dark .message-group .embed .embed-content-inner {
-    background-color: transparent; }
+/* Additions from an other theme: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 .theme-dark .message-group .comment .markup {
   color: rgba(255, 255, 255, 0.7) !important; }
   .theme-dark .message-group .comment .markup pre {
@@ -412,9 +804,15 @@
     border-color: rgba(0, 0, 0, 0.1); }
     .theme-dark .message-group .comment .markup pre code {
       background: rgba(0, 0, 0, 0.1); }
-
-
-
+	  
+/* Darker embed when a link has been send: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.theme-dark .message-group .embed {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0); }
+  .theme-dark .message-group .embed .embed-content-inner {
+    background-color: transparent; }
+	
+/* Custom channel category heading: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 div[class*="wrapperHoveredCollapsed-"] > svg {
   background: url("https://png.icons8.com/chevron-up/win8/26");
   background-size: contain;
@@ -468,14 +866,15 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
   div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] > svg > path {
     display: none; }
 
+/* Custom dm button icon: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.guilds-wrapper .guilds .friends-icon {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_forum_white_24px.svg"); }
+.guilds-wrapper .guilds .guild .guild-inner {
+	background: transparent !important; }
 
-  .guilds-wrapper .guilds .friends-icon {
-    background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_forum_white_24px.svg"); }
-  .guilds-wrapper .guilds .guild .guild-inner {
-    background: transparent !important; }
-
-  .guilds-wrapper .guilds .friends-online {
-    color: #ccc;
+/* Custom friends online box below dm button: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.guilds-wrapper .guilds .friends-online {
+	color: #ccc;
 	font-size: 9px;
 	margin: 7.5px -2.5px 2.5px;
 	line-height: 20px;
@@ -485,12 +884,10 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
 	overflow: hidden;
 	background: rgba(0,0,0,0.3); }
 	
-/*Custom buttons in themes settings: (Code by https://betterdocs.net/collections/themes/products/material-discord) */
+/* Custom buttons in themes settings: (Code by https://betterdocs.net/collections/themes/products/material-discord) */
 :root {
 	--accent-color: #913fb5;
 }
-
-
 
 #bd-settingspane-container .bda-right {
 	position: relative !important;
@@ -589,19 +986,6 @@ div[class*="userPopout-"] {
     -webkit-animation: unread 2s ease-in-out infinite;
 }
 
-/* Centered role names in member list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.theme-dark .channel-members h2, .theme-dark .membersGroup-3_dP5E {
-    color: #99aab5;
-    text-align: center;
-}
-
-/* Modified search bar: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
-.theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
-.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
-    background-color: rgba(0, 0, 0, .5);
-    color: hsla(0,0%,100%,.8);
-}
-
 /* Modified quickswitcher: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 .theme-dark div[class*="quickswitcher-"] {
     background-color: rgba(0, 0, 0, .25);
@@ -620,53 +1004,12 @@ div[class*="userPopout-"] {
 .account, .theme-dark .private-channel-recipients-invite .friend {
     background: rgba(0, 0, 0, .25)
 }
-  
-/* Modified hover friends color in friends table: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
- .theme-dark #friends .friends-table .friends-row:hover {
-	background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
-	
-}
-
-/* Modified hover chats color in dm list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.private-channels .channel:hover,
-.private-channels .channel.selected a, .private-channels .channel:hover a {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
-}
 
 /* Modified update news: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
 .theme-dark .header-3sp3cE, .theme-dark .separator-NBIcXB,
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
 .theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer, .uploadModal-2KN6Mm .footer-4pOKm8 {
     background: rgba(0, 0, 0, .25)
-}
-
-/* Modified playing user profile: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm, .topSectionSpotify-3744IX, .theme-dark .topSectionNormal-2LlRG1 {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
-}
-
-/* Modified autocomplete list: (Code by https://betterdocs.net/collections/themes/products/dark-blue)*/
-.theme-dark .channel-textarea-autocomplete-inner, .theme-dark .autocomplete-1TnWNR, .selectable-3iSmAf {
-    background: rgba(0, 0, 0, .5)
-}
-.theme-dark .channel-textarea-autocomplete-inner ul li.active, .theme-dark .selectorSelected-2M0IGv {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
 }
 
 /* Guild list blinking unread messages notification: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
@@ -686,22 +1029,6 @@ div[class*="userPopout-"] {
     border-bottom: 1px solid #1d232d;
 }
 
-/* Modified reactions list menu */
-.theme-dark .reactors-2PjMP0 {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
-}
-.theme-dark .sidebar-32BRdp {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
-}
-
 /* Modified three dots menu in chat: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
 .small-popout-box {
     -webkit-animation: line 10s ease-in-out infinite;
@@ -718,12 +1045,6 @@ div[class*="userPopout-"] {
   color: #d8d8d8; 
  }
 
-
-/* Modified hover over things in server settings: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.theme-dark .card-11ynQk:before {
-    background: linear-gradient(90deg, #1d232d 80%, #2e333d);
-    border-color: #4c5361;
-}
 
 /* Modified create/join new server menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 :root {
@@ -792,16 +1113,152 @@ div[class*="userPopout-"] {
 
 .avatar-uploader-inner {
   background-color: rgba(0, 0, 0, 0.01); }
-  
-  
-/* Modified loading screen */
-.container-2oOGIt {
+
+/* Adjusted right click on server or channel menu */
+.theme-dark.contextMenu-uoJTbz {
+    -webkit-animation: line 10s ease-in-out infinite;
+}
+.theme-dark.contextMenu-uoJTbz {
+    background: rgba(0,0,0,0.65);
+    border: 1px solid #101721;
+}
+
+/* Modified select server region menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+div[class*="regionSelectModal-"] {
+  background: rgba(0,0,0,0.3); }
+  div[class*="regionSelectModal-"] div[class*="regionSelectModalHeader-"] {
+    color: #fff;
+    text-transform: none; }
+  div[class*="regionSelectModal-"] div[class*="regionSelectModalOptions-"] div[class*="regionSelectModalOption-"] {
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    background-color: rgba(0,0,0,0.3);
+    border: 2px solid #696969; }
+    div[class*="regionSelectModal-"] div[class*="regionSelectModalOptions-"] div[class*="regionSelectModalOption-"]:hover {
+      transition: all 200ms ease;
+      -webkit-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      border: 5px solid #27ae60; }
+
+/* Modified help menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.form .control-group input[type=text],
+.form .control-group textarea {
+    color: #ccd2e8 !important;
+    border-bottom: 1px solid #282b30 !important;
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.need-help-modal .footer {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: 1px solid #040a10 !important;
+}
+.need-help-modal .header {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.need-help-modal .header h1 {
+    color: #7289da !important;
+}
+.need-help-modal .header input[type=text] {
+    box-shadow: 0 2px 1px #43b581 !important;
+}
+.need-help-modal .header input[type=text]:focus {
+    border-bottom: 1px solid #43b581 !important;
+}
+.need-help-modal a:hover {
+    color: #00ff6f !important;
+}
+
+/* Adjusted selected channel */
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 85%,transparent);
+}
+
+/* Remove blurred image message box */
+.message-group {
+    box-shadow: inset 0 0 0px 0px rgba(0, 0, 0, 0.00) !important;
+    background-image: var(--nonblurredimage) !important;
+    background-size: 0 !important;
+    background-position: center;
+    background-attachment: fixed;
+	margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+/* Modified pinned messages jump to message button: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */	  
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+    background-color: transparent;
+    box-shadow: 0 0 6px 4px transparent;
+}
+
+/* Modified reactions list menu */
+.theme-dark .reactors-Blmlhw {
+    background-image: var(--blurredimage);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.15);
+}
+.theme-dark .sidebar-1-SQro {
     background-image: var(--blurredimage);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
 }
+
+/* Centered role names in member list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.theme-dark .membersGroup-v9BXpm {
+    text-align: center;
+    color: #99aab5;
+}
+
+/* Modified search bar: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+.theme-dark .searchPopout-1vUlP3,
+.theme-dark .searchOption-zQ-1l6 .filter-3Y_im- {
+    background-color: rgba(0, 0, 0, .5);
+    color: hsla(0,0%,100%,.8);
+}
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
+}
+
+/* Modified create instant invite menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+div[class*="wrapper-"] {
+  background: transparent; }
+  div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-header {
+    background: rgba(0, 0, 0, 0.25); }
+    div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-header header {
+      color: #fff; }
+    div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-header div[class*="blurb-"] {
+      color: #ccc; }
+  div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-inner {
+    background: rgba(0, 0, 0, 0.25); }
+  div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-actions {
+    background: rgba(0, 0, 0, 0.5); }
+  div[class*="wrapper-"] form[class*="instantInviteModal-"] div[class*="clipboardInputInner-"] {
+    background: rgba(0, 0, 0, 0.05);
+    border: 0; }
+    div[class*="wrapper-"] form[class*="instantInviteModal-"] div[class*="clipboardInputInner-"] input {
+      background: rgba(0, 0, 0, 0.05); }
+      div[class*="wrapper-"] form[class*="instantInviteModal-"] div[class*="clipboardInputInner-"] button::before {
+        background: transparent; }
+
+.checkbox .checkbox-inner + span {
+  color: #fff; }
 
 /* Modified search popout/results menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
 @-webkit-keyframes line {
@@ -817,7 +1274,6 @@ div[class*="userPopout-"] {
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
 }
-
 .theme-dark .search-results-wrap {
     background-image: var(--blurredimage);
     background-size: cover;
@@ -861,150 +1317,25 @@ div[class*="userPopout-"] {
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.1);
 }
 
-
-/* Adjusted right click on server or channel menu */
-.theme-dark.contextMenu-uoJTbz {
-    -webkit-animation: line 10s ease-in-out infinite;
-}
-.theme-dark.contextMenu-uoJTbz {
-    background: rgba(0,0,0,0.65);
-    border: 1px solid #101721;
-}
-
-
-/* Modified create instant invite menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header{
-    color: #fff;
-}
-
-.checkbox, .radio {
-    color: #fff;
-}
-
-.form .control-group .help-text, .wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz {
-    color: #fff;
-}
-
-.form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner {
+/* Modified loading screen **NOT WORKING** */
+.container-2oOGIt {
     background-image: var(--blurredimage);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
 }
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.025);
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
-    border: 2px solid #676767;
-}
 
-.clipboardInputInner-oj8y-S {
-    border: 1px solid #070f1b;
-}
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
-    color: #8fe0ff;
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.01);
-}
-.clipboardInputInner-oj8y-S button:first-of-type:before {
-    background: transparent;
-}
-.clipboardInputInner-oj8y-S button {
-    border-left: 3px solid #070f1b;
-}
-.wrapper-VSYYTS {
-    background: transparent;
-}
+/* Modified active dm call background: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+.theme-dark div[class*="videoHeight-"] {
+  background-color: rgba(0, 0, 0, .5); }
+  .theme-dark div[class*="videoHeight-"] div[class*="video-"] {
+    background-color: transparent; }
 
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
-    background-color: #105f5f;
-}
-
-
-/* Modified select server region menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
-div[class*="regionSelectModal-"] {
-  background: rgba(0,0,0,0.3); }
-  div[class*="regionSelectModal-"] div[class*="regionSelectModalHeader-"] {
-    color: #fff;
-    text-transform: none; }
-  div[class*="regionSelectModal-"] div[class*="regionSelectModalOptions-"] div[class*="regionSelectModalOption-"] {
-    transition: all 200ms ease;
-    -webkit-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    background-color: rgba(0,0,0,0.3);
-    border: 2px solid #696969; }
-    div[class*="regionSelectModal-"] div[class*="regionSelectModalOptions-"] div[class*="regionSelectModalOption-"]:hover {
-      transition: all 200ms ease;
-      -webkit-transition: all 200ms ease;
-      -ms-transition: all 200ms ease;
-      -moz-transition: all 200ms ease;
-      -o-transition: all 200ms ease;
-      border: 5px solid #27ae60; }
-	  
-	  
-/* Modified pinned messages list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */	  
-.theme-dark .themed-popout .header, .theme-dark .popout .messages-popout-wrap .header, .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
-    background-color: transparent;
-}
-.theme-dark .messagesPopoutWrap-1VBR-j {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
-.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
-    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 5);
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-
-/* Modified help menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
-.form .control-group input[type=text],
-.form .control-group textarea {
-    color: #ccd2e8 !important;
-    border-bottom: 1px solid #282b30 !important;
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.need-help-modal .footer {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    border-top: 1px solid #040a10 !important;
-}
-.need-help-modal .header {
-    background-image: var(--blurredimage);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.need-help-modal .header h1 {
-    color: #7289da !important;
-}
-.need-help-modal .header input[type=text] {
-    box-shadow: 0 2px 1px #43b581 !important;
-}
-.need-help-modal .header input[type=text]:focus {
-    border-bottom: 1px solid #43b581 !important;
-}
-.need-help-modal a:hover {
-    color: #00ff6f !important;
-}
-
-
-/* Adjusted selected channel */
-.contentSelectedText-3j5CXt {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 85%,transparent);
+/* Modified select screen share option menu */
+div[class*="contextMenu-"] {
+    -webkit-animation: line 10s ease-in-out infinite;
+}	
+div[class*="contextMenu-"] {
+	border: 1px solid #101721;
 }
