@@ -1183,7 +1183,7 @@ div[class*="regionSelectModal-"] {
 }
 
 /* Adjusted selected channel */
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+.contentSelectedText-3wUhMi {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 85%,transparent);
 }
 
