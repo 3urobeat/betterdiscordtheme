@@ -3430,3 +3430,10 @@ div[class*="channels-"] {
     padding-left: 23px; }
     div[class*="channels-"] div[class*="container-"] div[class*="horizontal-"] > svg > path {
       display: none; }
+
+	  
+/* Modified game tab in dm */	  
+.theme-dark .activityFeed-28jde9 {
+    background: var(--dark-primary); }
+.theme-dark .body-SKIE6r, .article-FleDq5 {
+    background-color: var(--dark-secondary); }
