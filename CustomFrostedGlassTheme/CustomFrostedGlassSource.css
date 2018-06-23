@@ -763,7 +763,7 @@
     cursor: pointer;
     opacity: 1;
     transition: opacity 2s ease;
-    left: 10px;
+    left: 4px;
 }
 .mention-RlZ5F3 {
     background-color: rgba(240, 71, 71, 0.5);
@@ -865,12 +865,6 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
   padding-left: 23px; }
   div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] > svg > path {
     display: none; }
-
-/* Custom dm button icon: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
-.guilds-wrapper .guilds .friends-icon {
-	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_forum_white_24px.svg"); }
-.guilds-wrapper .guilds .guild .guild-inner {
-	background: transparent !important; }
 
 /* Custom friends online box below dm button: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
 .guilds-wrapper .guilds .friends-online {
