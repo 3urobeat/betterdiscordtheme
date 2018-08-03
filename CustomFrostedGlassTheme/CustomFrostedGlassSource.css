@@ -1333,3 +1333,6 @@ div[class*="contextMenu-"] {
 div[class*="contextMenu-"] {
 	border: 1px solid #101721;
 }
+
+/* Fix server list */
+.guildsWrapper-5TJh6A {background: transparent !important;}

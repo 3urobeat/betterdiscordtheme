@@ -3437,3 +3437,6 @@ div[class*="channels-"] {
     background: var(--dark-primary); }
 .theme-dark .body-SKIE6r, .article-FleDq5 {
     background-color: var(--dark-secondary); }
+	
+/* Fix server list */
+.guildsWrapper-5TJh6A {background: var(--dark-highlight) !important;}
