@@ -4,7 +4,7 @@
 </div>
 
 Join my Discord Server!
-https://discord.gg/q3KXW2P
+https://discord.gg/AyWxpKb
 
 
 

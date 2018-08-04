@@ -302,23 +302,6 @@
 .theme-dark .activityFeed-28jde9 {
     background-color: transparent;
 }
-.article-FleDq5 {
-    -webkit-box-sizing: border-box;
-    background-color: transparent;
-    border-radius: 5px;
-    box-sizing: border-box;
-    height: 300px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-}
-.carousel-1Mb2Ud {
-    -webkit-transform: translateZ(0);
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 3px;
-    height: 300px;
-    transform: translateZ(0);
-}
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
     box-shadow: inset 0 0 2000px 2000px rgba(255, 255, 255, 0.09) !important;
     background-image: var(--blurredimage) !important;
@@ -796,7 +779,7 @@
     background-attachment: fixed;
 }
 
-/* Additions from an other theme: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Additions from an other theme: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 .theme-dark .message-group .comment .markup {
   color: rgba(255, 255, 255, 0.7) !important; }
   .theme-dark .message-group .comment .markup pre {
@@ -805,14 +788,14 @@
     .theme-dark .message-group .comment .markup pre code {
       background: rgba(0, 0, 0, 0.1); }
 	  
-/* Darker embed when a link has been send: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Darker embed when a link has been send: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 .theme-dark .message-group .embed {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0); }
   .theme-dark .message-group .embed .embed-content-inner {
     background-color: transparent; }
 	
-/* Custom channel category heading: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Custom channel category heading: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 div[class*="wrapperHoveredCollapsed-"] > svg {
   background: url("https://png.icons8.com/chevron-up/win8/26");
   background-size: contain;
@@ -866,7 +849,7 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
   div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] > svg > path {
     display: none; }
 
-/* Custom friends online box below dm button: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Custom friends online box below dm button: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 .guilds-wrapper .guilds .friends-online {
 	color: #ccc;
 	font-size: 9px;
@@ -878,7 +861,7 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
 	overflow: hidden;
 	background: rgba(0,0,0,0.3); }
 	
-/* Custom buttons in themes settings: (Code by https://betterdocs.net/collections/themes/products/material-discord) */
+/* Custom buttons in themes settings: (Code by https://github.com/CapnKitten/BetterDiscord/blob/master/Material-Discord/css/source.css) */
 :root {
 	--accent-color: #913fb5;
 }
@@ -946,7 +929,7 @@ div[class*="channels-"] div[class*="container-"] div[class*="cursorPointer-"] {
 	transform: translateX(17px);
 }
 
-/*Custom guild member profile popout animation: (Code by https://betterdocs.net/collections/themes/products/discord-theme)*/
+/*Custom guild member profile popout animation: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css)*/
 @-webkit-keyframes user-popout-anim {
   from {
     -moz-transform: translateX(-50px);
@@ -968,7 +951,7 @@ div[class*="userPopout-"] {
   animation: user-popout-anim 350ms ease-in-out;
 }
 
-/* Blinking new messages bar: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Blinking new messages bar: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 @-webkit-keyframes unread {  
   0% { background-color: #faa61a; }
   50% { background-color: rgba(250,166,26,0.2); }
@@ -980,7 +963,7 @@ div[class*="userPopout-"] {
     -webkit-animation: unread 2s ease-in-out infinite;
 }
 
-/* Modified quickswitcher: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Modified quickswitcher: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 .theme-dark div[class*="quickswitcher-"] {
     background-color: rgba(0, 0, 0, .25);
     color: hsla(0,0%,100%,.8); }
@@ -992,21 +975,21 @@ div[class*="userPopout-"] {
     color: hsla(0,0%,100%,.8);
     box-shadow: 0; }
 
-/* Modified create DM menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme and https://betterdocs.net/collections/themes/products/dark-blue)*/    
+/* Modified create DM menu: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css and https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css)*/    
 .themed-popout .header {
   background: rgba(0, 0, 0, .25) !important; }
 .account, .theme-dark .private-channel-recipients-invite .friend {
     background: rgba(0, 0, 0, .25)
 }
 
-/* Modified update news: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified update news: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .theme-dark .header-3sp3cE, .theme-dark .separator-NBIcXB,
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
 .theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer, .uploadModal-2KN6Mm .footer-4pOKm8 {
     background: rgba(0, 0, 0, .25)
 }
 
-/* Guild list blinking unread messages notification: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Guild list blinking unread messages notification: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .guilds-wrapper .guilds .guild.unread:before {
     background: #e0961c;
     -webkit-animation: unread 2s ease-in-out infinite;
@@ -1015,7 +998,7 @@ div[class*="userPopout-"] {
     margin-top: -20px;
 }
 
-/* Modified guild settings drop down menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified guild settings drop down menu: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .popout-menu, .menu-3BZuDT {
     background-color: rgba(0, 0, 0, .5);
 }
@@ -1023,7 +1006,7 @@ div[class*="userPopout-"] {
     border-bottom: 1px solid #1d232d;
 }
 
-/* Modified three dots menu in chat: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified three dots menu in chat: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .small-popout-box {
     -webkit-animation: line 10s ease-in-out infinite;
 }
@@ -1040,7 +1023,7 @@ div[class*="userPopout-"] {
  }
 
 
-/* Modified create/join new server menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Modified create/join new server menu: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 :root {
   --dark-highlight: rgba(0, 0, 0, .3);
   --dark-primary: rgba(0, 0, 0, .3);
@@ -1117,7 +1100,7 @@ div[class*="userPopout-"] {
     border: 1px solid #101721;
 }
 
-/* Modified select server region menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Modified select server region menu: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 div[class*="regionSelectModal-"] {
   background: rgba(0,0,0,0.3); }
   div[class*="regionSelectModal-"] div[class*="regionSelectModalHeader-"] {
@@ -1139,7 +1122,7 @@ div[class*="regionSelectModal-"] {
       -o-transition: all 200ms ease;
       border: 5px solid #27ae60; }
 
-/* Modified help menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified help menu: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .form .control-group input[type=text],
 .form .control-group textarea {
     color: #ccd2e8 !important;
@@ -1192,7 +1175,7 @@ div[class*="regionSelectModal-"] {
     border-radius: 0px;
 }
 
-/* Modified pinned messages jump to message button: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */	  
+/* Modified pinned messages jump to message button: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */	  
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
     background-color: transparent;
     box-shadow: 0 0 6px 4px transparent;
@@ -1214,13 +1197,13 @@ div[class*="regionSelectModal-"] {
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
 }
 
-/* Centered role names in member list: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Centered role names in member list: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .theme-dark .membersGroup-v9BXpm {
     text-align: center;
     color: #99aab5;
 }
 
-/* Modified search bar: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified search bar: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 .theme-dark .searchPopout-1vUlP3,
 .theme-dark .searchOption-zQ-1l6 .filter-3Y_im- {
     background-color: rgba(0, 0, 0, .5);
@@ -1230,7 +1213,7 @@ div[class*="regionSelectModal-"] {
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
 }
 
-/* Modified create instant invite menu: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Modified create instant invite menu: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 div[class*="wrapper-"] {
   background: transparent; }
   div[class*="wrapper-"] form[class*="instantInviteModal-"] .form-header {
@@ -1254,7 +1237,7 @@ div[class*="wrapper-"] {
 .checkbox .checkbox-inner + span {
   color: #fff; }
 
-/* Modified search popout/results menu: (Code by https://betterdocs.net/collections/themes/products/dark-blue) */
+/* Modified search popout/results menu: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
 @-webkit-keyframes line {
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -1320,7 +1303,7 @@ div[class*="wrapper-"] {
     box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
 }
 
-/* Modified active dm call background: (Code by https://betterdocs.net/collections/themes/products/discord-theme) */
+/* Modified active dm call background: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
 .theme-dark div[class*="videoHeight-"] {
   background-color: rgba(0, 0, 0, .5); }
   .theme-dark div[class*="videoHeight-"] div[class*="video-"] {
@@ -1340,3 +1323,55 @@ div[class*="contextMenu-"] {
 /* Fix chat background */
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
     background: transparent;}
+	
+/* Fix server icons without logo and dm button: (Code by https://github.com/AltenGD/Altens-betterdiscord-Themes-Plugins/blob/master/Themes/FrostedGlassRewrite.theme.css)*/
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+  background: rgba(255, 255, 255, 0.10) !important
+}
+
+/* Game tab fix : (Code by https://github.com/AltenGD/Altens-betterdiscord-Themes-Plugins/blob/master/Themes/FrostedGlassRewrite.theme.css)*/
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+  background: var(--Brightness);
+}
+.theme-dark .card-7JP0BX {
+    background-color: transparent;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(255,255,255,0.15);
+}
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(255,255,255,0.225);
+}
+.article-FleDq5 {
+    background: var(--blurredimage);
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paginationItem-3-MBTL:after {
+    background: linear-gradient(270deg,transparent 0,rgba(0,0,0,0.5));
+}
+.newsLink-38Naqi:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+.news-2GDtLJ {
+    background-color: rgba(0,0,0,0.5);
+}
+.theme-dark .dockItem-2kQDqg:hover, .article-FleDq5{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 10000px var(--Brightness);
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Emoji Menu: (Code by https://github.com/AltenGD/Altens-betterdiscord-Themes-Plugins/blob/master/Themes/FrostedGlassRewrite.theme.css)*/	
+.videoBackgroundWrapper-2dCt49, .theme-dark .headerBar-UHpsPw, .theme-dark .header-1RC2Wb, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .markup-2BOw-j pre, .theme-dark .menu-Sp6bN1, .theme-dark .header-ykumBX, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .container-PNkimc, .channels-Ie2l6A, .container-2lgZY8, .theme-dark .title-3qD0b-, .theme-dark .chat, .theme-dark .wrapper-29NfPK, .theme-dark .chat>.content, .theme-dark .chat form, .theme-dark .members-1998pB, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .activityFeed-28jde9, .theme-dark .headerNormal-T_seeN {
+    background-color: transparent;
+}
+.theme-dark .quickMessage-1yeL4E, .theme-dark .footer-1kmXd4, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark #bda-qem, .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background: var(--Brightness);
+}
+.theme-dark .selectorSelected-1_M1WV, .theme-dark #friends .friends-table .friends-row:hover, .bda-dark #bda-qem button.active, .bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+  background: rgba(255, 255, 255, 0.05)
+}
