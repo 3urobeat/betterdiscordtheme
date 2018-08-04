@@ -3440,3 +3440,7 @@ div[class*="channels-"] {
 	
 /* Fix server list */
 .guildsWrapper-5TJh6A {background: var(--dark-highlight) !important;}
+
+/* Fix chat background */
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
+    background: var(--dark-secondary);}
