@@ -1375,3 +1375,12 @@ div[class*="contextMenu-"] {
 .theme-dark .selectorSelected-1_M1WV, .theme-dark #friends .friends-table .friends-row:hover, .bda-dark #bda-qem button.active, .bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
   background: rgba(255, 255, 255, 0.05)
 }
+
+/* Transparent pinned messages */
+.theme-dark .messageGroupWrapper-o-Zw7G {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+/* Modified game tab news tab fade color */
+.paginationItem-3-MBTL:after {
+    background: linear-gradient(270deg,transparent 0,rgba(114,137,218,0.15));}
