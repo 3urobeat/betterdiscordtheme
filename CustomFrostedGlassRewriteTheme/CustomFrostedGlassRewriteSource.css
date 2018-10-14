@@ -1,5 +1,5 @@
 :root {
-  --imgNonBlurred: url(https://9to5mac.files.wordpress.com/2018/06/mojave-night.jpg?quality=82&strip=all);
+  --imgNonBlurred: url(https://i.imgur.com/04GKOra.jpg);
   --imgBlurred: url(https://i.imgur.com/dgBOlGy.jpg);
   --Brightness: rgba(0,0,0,0.2);
   --SecondaryBrightness: rgba(0,0,0,0.4);
@@ -14,7 +14,7 @@
 }
 
 /*Land of transparency*/
-.theme-dark .gameLibrary-TTDw4Y, .ace-monokai, .ace-monokai, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .messagesWrapper-3lZDfY.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .videoBackgroundWrapper-2dCt49, .theme-dark .headerBar-UHpsPw, .theme-dark .header-1RC2Wb, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .markup-2BOw-j pre, .theme-dark .menu-Sp6bN1, .theme-dark .header-ykumBX, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .container-PNkimc, .channels-Ie2l6A, .container-2lgZY8, .theme-dark .title-3qD0b-, .theme-dark .chat, .theme-dark .wrapper-29NfPK, .theme-dark .chat>.content, .theme-dark .chat form, .theme-dark .members-1998pB, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .activityFeed-28jde9, .theme-dark .headerNormal-T_seeN {
+.theme-dark .container-3ayLPN, .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .gameLibrary-TTDw4Y, .ace-monokai, .ace-monokai, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .messagesWrapper-3lZDfY.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .videoBackgroundWrapper-2dCt49, .theme-dark .headerBar-UHpsPw, .theme-dark .header-1RC2Wb, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .markup-2BOw-j pre, .theme-dark .menu-Sp6bN1, .theme-dark .header-ykumBX, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .container-PNkimc, .channels-Ie2l6A, .container-2lgZY8, .theme-dark .title-3qD0b-, .theme-dark .chat, .theme-dark .wrapper-29NfPK, .theme-dark .chat>.content, .theme-dark .chat form, .theme-dark .members-1998pB, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .activityFeed-28jde9, .theme-dark .headerNormal-T_seeN {
     background-color: transparent;
 }
 .guilds-wrapper .guilds .guild .guild-inner, .backdrop-1wrmKB {
@@ -37,7 +37,7 @@
 }
 
 /*Land of blurs*/
-.theme-dark .invite-18yqGF, .missingAccess-3szpts, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .message-2qRu38, .theme-dark .container-3cGP6G, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .theme-dark .auditLog-3jNbM6, .authBox-hW6HRx, .bda-slist li, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls, .ace-monokai, .theme-dark .add-game-popout, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .hasMore-3e72_v button, .notificationSettings-1NQKPR, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:not(.red) div, .theme-dark .autocomplete-1vrmpx, .theme-dark #friends, .theme-dark .dockItem-2kQDqg:hover, .article-FleDq5, .private-channels .channel:hover a, .theme-dark .card-FDVird:before, .theme-dark .footer-2yfCgX, .video-1kutKI, .theme-dark .tiles-2aXG_k, .video-1FfuMD, .theme-dark .isLocalBot-38G0P0, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .item-3T2z1R, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header, .uploadModal-2ifh8j .footer-3mqk7D, .appMount-3VJmYg, .guilds-wrapper, .theme-dark .inner-zqa7da, .theme-dark .embedInner-1-fpTo, .membersWrap-2h-GB4, .theme-dark .search .search-bar, .theme-dark .cardPrimary-1Hv-to, .lookOutlined-3sRXeN.colorBrand-3pXr91, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .cardPrimaryOutline-29Ujqw, .lookOutlined-3sRXeN.colorRed-1TFJan, .theme-dark .bar-2Qqk5Z, .theme-dark .select-2TCrqx .Select-control, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .valueUnchecked-2lU_20, .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark.contextMenu-HLZMGh, popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .themeDark-3Ap_7i, .theme-dark .wrapper-29NfPK, .theme-dark .attachment-33OFj0{
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .invite-18yqGF, .missingAccess-3szpts, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .message-2qRu38, .theme-dark .container-3cGP6G, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .theme-dark .auditLog-3jNbM6, .authBox-hW6HRx, .bda-slist li, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls, .ace-monokai, .theme-dark .add-game-popout, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .hasMore-3e72_v button, .notificationSettings-1NQKPR, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:not(.red) div, .theme-dark .autocomplete-1vrmpx, .theme-dark #friends, .theme-dark .dockItem-2kQDqg:hover, .article-FleDq5, .private-channels .channel:hover a, .theme-dark .card-FDVird:before, .theme-dark .footer-2yfCgX, .video-1kutKI, .theme-dark .tiles-2aXG_k, .video-1FfuMD, .theme-dark .isLocalBot-38G0P0, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .item-3T2z1R, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header, .uploadModal-2ifh8j .footer-3mqk7D, .appMount-3VJmYg, .guilds-wrapper, .theme-dark .inner-zqa7da, .theme-dark .embedInner-1-fpTo, .membersWrap-2h-GB4, .theme-dark .search .search-bar, .theme-dark .cardPrimary-1Hv-to, .lookOutlined-3sRXeN.colorBrand-3pXr91, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .cardPrimaryOutline-29Ujqw, .lookOutlined-3sRXeN.colorRed-1TFJan, .theme-dark .bar-2Qqk5Z, .theme-dark .select-2TCrqx .Select-control, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .valueUnchecked-2lU_20, .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark.contextMenu-HLZMGh, popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .themeDark-3Ap_7i, .theme-dark .wrapper-29NfPK, .theme-dark .attachment-33OFj0{
   background-image: var(--imgBlurred);
   background-position: center;
   background-size: cover;
@@ -291,6 +291,7 @@
 
 
 
+
 /* Additions: */
 
 /* Modified game tab news tab fade color */
@@ -324,3 +325,17 @@
     background-color: rgba(0, 0, 0, .25);
     color: hsla(0,0%,100%,.8);
     box-shadow: 0; }
+
+/* Blinking new messages bar: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
+@-webkit-keyframes unread {  
+  0% { background-color: #faa61a; }
+  50% { background-color: rgba(250,166,26,0.2); }
+}
+
+.chat .new-messages-bar, .newMessagesBar-mujexs {
+    background-color: #faa61a;
+    -webkit-animation: unread 2s ease-in-out infinite;
+}
+.chat .new-messages-bar:hover, .newMessagesBar-mujexs:hover {
+    background-color: #faa61a;
+}

@@ -957,10 +957,12 @@ div[class*="userPopout-"] {
   50% { background-color: rgba(250,166,26,0.2); }
 }
 
-.chat .new-messages-bar {
+.chat .new-messages-bar, .newMessagesBar-mujexs {
     background-color: #faa61a;
-    margin-top: 10px;
     -webkit-animation: unread 2s ease-in-out infinite;
+}
+.chat .new-messages-bar:hover, .newMessagesBar-mujexs:hover {
+    background-color: #faa61a;
 }
 
 /* Modified quickswitcher: (Code by https://github.com/AlexFlipnote/Discord_Theme/blob/master/theme.css) */
@@ -987,15 +989,6 @@ div[class*="userPopout-"] {
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
 .theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer, .uploadModal-2KN6Mm .footer-4pOKm8 {
     background: rgba(0, 0, 0, .25)
-}
-
-/* Guild list blinking unread messages notification: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
-.guilds-wrapper .guilds .guild.unread:before {
-    background: #e0961c;
-    -webkit-animation: unread 2s ease-in-out infinite;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: -20px;
 }
 
 /* Modified guild settings drop down menu: (Code by https://github.com/hallopiu/betterdiscord-dark-theme/blob/master/css/darkblue.css) */
