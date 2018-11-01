@@ -1412,3 +1412,8 @@ div[class*="contextMenu-"] {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* Round channel selector and rounder chat bar */
+.innerNoAutocomplete-1WpcVO, .content-20Aix8 {
+  border-radius: 100px;
+}
