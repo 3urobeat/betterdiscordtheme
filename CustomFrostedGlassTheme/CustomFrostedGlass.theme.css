@@ -1,4 +1,4 @@
-//META{"name":"Custom_Frosted_Glass_Theme","description":"A customized Discord theme. Original: *deleted*","author":"Alten (customized: HerrEurobeat)","version":"0.7.2", "source":"https://raw.githubusercontent.com/HerrEurobeat/betterdiscordtheme/master/CustomDiscordTheme/CustomDiscordThemeSource.css","website":"https://discord.gg/AyWxpKb"}*//{}
+//META{"name":"Custom_Frosted_Glass_Theme","description":"A customized Discord theme. Original: *deleted*","author":"Alten (customized: HerrEurobeat)","version":"0.7.2", "source":"https://raw.githubusercontent.com/HerrEurobeat/betterdiscordtheme/master/CustomFrostedGlassTheme/CustomFrostedGlassSource.css","website":"https://discord.gg/AyWxpKb"}*//{}
 
 /* Imports the newest version from GitHub */
-@import url(https://rawgit.com/HerrEurobeat/betterdiscordtheme/master/CustomFrostedGlassTheme/CustomFrostedGlassSource.css)
+@import url(https://cdn.jsdelivr.net/gh/HerrEurobeat/betterdiscordtheme/CustomFrostedGlassTheme/CustomFrostedGlassSource.css)

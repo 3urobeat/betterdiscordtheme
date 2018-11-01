@@ -1,12 +1,3 @@
-:root {
-  --imgNonBlurred: url(https://i.imgur.com/04GKOra.jpg);
-  --imgBlurred: url(https://i.imgur.com/dgBOlGy.jpg);
-  --Brightness: rgba(0,0,0,0.2);
-  --SecondaryBrightness: rgba(0,0,0,0.4);
-  --ThirdBrightness: rgba(0,0,0,0.6);
-}
-
-
 /* Remove borders*/
 .theme-dark .guildsAdd-21_IdK, .theme-dark .invite-18yqGF, .theme-dark .emoji-alias-input .emoji-input, .theme-dark .auditLog-3jNbM6, .authBox-hW6HRx, .bda-slist li, .theme-dark .hasMore-3e72_v button, .theme-dark .quickMessage-1yeL4E, .theme-dark .card-FDVird:before, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV, .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .theme-dark .modal-3HD5ck, .emojiPicker-3m1S-j, .stickyHeader-1SS0JU, .theme-dark .header-ykumBX, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .theme-dark .theme-dark .menu-Sp6bN1, .embedInner-1-fpTo,popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .theme-dark .attachment-33OFj0, .theme-dark .cardPrimary-1Hv-to,.theme-dark .searchPopout-1vUlP3, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .cardPrimaryOutline-29Ujqw, .theme-dark .select-2TCrqx .Select-control, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .theme-dark.contextMenu-HLZMGh, popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .userPopout-3XzG_A {
   border-color: transparent !important;
@@ -14,7 +5,7 @@
 }
 
 /*Land of transparency*/
-.theme-dark .container-3ayLPN, .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .gameLibrary-TTDw4Y, .ace-monokai, .ace-monokai, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .messagesWrapper-3lZDfY.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .videoBackgroundWrapper-2dCt49, .theme-dark .headerBar-UHpsPw, .theme-dark .header-1RC2Wb, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .markup-2BOw-j pre, .theme-dark .menu-Sp6bN1, .theme-dark .header-ykumBX, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .container-PNkimc, .channels-Ie2l6A, .container-2lgZY8, .theme-dark .title-3qD0b-, .theme-dark .chat, .theme-dark .wrapper-29NfPK, .theme-dark .chat>.content, .theme-dark .chat form, .theme-dark .members-1998pB, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .activityFeed-28jde9, .theme-dark .headerNormal-T_seeN {
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy, .theme-dark .standardSidebarView-3F1I7i, .theme-dark .container-3ayLPN, .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .gameLibrary-TTDw4Y, .ace-monokai, .ace-monokai, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .messagesWrapper-3lZDfY.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .videoBackgroundWrapper-2dCt49, .theme-dark .headerBar-UHpsPw, .theme-dark .header-1RC2Wb, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .search-results-wrap, .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .markup-2BOw-j pre, .theme-dark .menu-Sp6bN1, .theme-dark .header-ykumBX, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline, .container-PNkimc, .channels-Ie2l6A, .container-2lgZY8, .theme-dark .title-3qD0b-, .theme-dark .chat, .theme-dark .wrapper-29NfPK, .theme-dark .chat>.content, .theme-dark .chat form, .theme-dark .members-1998pB, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .activityFeed-28jde9, .theme-dark .headerNormal-T_seeN {
     background-color: transparent;
 }
 .guilds-wrapper .guilds .guild .guild-inner, .backdrop-1wrmKB {
@@ -37,7 +28,7 @@
 }
 
 /*Land of blurs*/
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .invite-18yqGF, .missingAccess-3szpts, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .message-2qRu38, .theme-dark .container-3cGP6G, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .theme-dark .auditLog-3jNbM6, .authBox-hW6HRx, .bda-slist li, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls, .ace-monokai, .theme-dark .add-game-popout, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .hasMore-3e72_v button, .notificationSettings-1NQKPR, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:not(.red) div, .theme-dark .autocomplete-1vrmpx, .theme-dark #friends, .theme-dark .dockItem-2kQDqg:hover, .article-FleDq5, .private-channels .channel:hover a, .theme-dark .card-FDVird:before, .theme-dark .footer-2yfCgX, .video-1kutKI, .theme-dark .tiles-2aXG_k, .video-1FfuMD, .theme-dark .isLocalBot-38G0P0, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .item-3T2z1R, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header, .uploadModal-2ifh8j .footer-3mqk7D, .appMount-3VJmYg, .guilds-wrapper, .theme-dark .inner-zqa7da, .theme-dark .embedInner-1-fpTo, .membersWrap-2h-GB4, .theme-dark .search .search-bar, .theme-dark .cardPrimary-1Hv-to, .lookOutlined-3sRXeN.colorBrand-3pXr91, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .cardPrimaryOutline-29Ujqw, .lookOutlined-3sRXeN.colorRed-1TFJan, .theme-dark .bar-2Qqk5Z, .theme-dark .select-2TCrqx .Select-control, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .valueUnchecked-2lU_20, .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark.contextMenu-HLZMGh, popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .themeDark-3Ap_7i, .theme-dark .wrapper-29NfPK, .theme-dark .attachment-33OFj0{
+.theme-dark .sidebarRegion-VFTUkN, .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a, .theme-dark .invite-18yqGF, .missingAccess-3szpts, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .message-2qRu38, .theme-dark .container-3cGP6G, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .theme-dark .auditLog-3jNbM6, .authBox-hW6HRx, .bda-slist li, .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls, .ace-monokai, .theme-dark .add-game-popout, .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected, .theme-dark .hasMore-3e72_v button, .notificationSettings-1NQKPR, .theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:not(.red) div, .theme-dark .autocomplete-1vrmpx, .theme-dark #friends, .theme-dark .dockItem-2kQDqg:hover, .article-FleDq5, .private-channels .channel:hover a, .theme-dark .card-FDVird:before, .theme-dark .footer-2yfCgX, .video-1kutKI, .theme-dark .tiles-2aXG_k, .video-1FfuMD, .theme-dark .isLocalBot-38G0P0, .theme-dark .search-results-wrap .search-result .hit, .theme-dark .item-3T2z1R, .need-help-modal.deprecated .footer, .need-help-modal.deprecated .header, .uploadModal-2ifh8j .footer-3mqk7D, .appMount-3VJmYg, .guilds-wrapper, .theme-dark .inner-zqa7da, .theme-dark .embedInner-1-fpTo, .membersWrap-2h-GB4, .theme-dark .search .search-bar, .theme-dark .cardPrimary-1Hv-to, .lookOutlined-3sRXeN.colorBrand-3pXr91, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .cardPrimaryOutline-29Ujqw, .lookOutlined-3sRXeN.colorRed-1TFJan, .theme-dark .bar-2Qqk5Z, .theme-dark .select-2TCrqx .Select-control, .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .valueUnchecked-2lU_20, .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, .theme-dark.contextMenu-HLZMGh, popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom.popoutBottom-1YbShG.popoutbottom.da-popout.da-popoutBottom.da-popoutbottom, .themeDark-3Ap_7i, .theme-dark .wrapper-29NfPK, .theme-dark .attachment-33OFj0{
   background-image: var(--imgBlurred);
   background-position: center;
   background-size: cover;
@@ -289,8 +280,13 @@
   background-attachment: fixed;
 }
 
-
-
+:root {
+  --imgNonBlurred: url(https://i.imgur.com/04GKOra.jpg);
+  --imgBlurred: url(https://i.imgur.com/dgBOlGy.jpg);
+  --Brightness: rgba(0,0,0,0.2);
+  --SecondaryBrightness: rgba(0,0,0,0.4);
+  --ThirdBrightness: rgba(0,0,0,0.6);
+}
 
 /* Additions: */
 
@@ -338,4 +334,40 @@
 }
 .chat .new-messages-bar:hover, .newMessagesBar-mujexs:hover {
     background-color: #faa61a;
+}
+
+/* Discord Store */
+.home-2gmu2h {
+    background-image: var(--imgNonBlurred);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 10000px var(--SecondaryBrightness);
+}
+.theme-dark input[class*="browseSearchInput-"],
+.theme-dark input[class*="libraryFilterInput-"] {
+    background-image: var(--imgBlurred);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 200px 200px rgba(255, 255, 255, 0.05);
+}
+.itemDescriptionContainer-1DOZz3 {
+    background: linear-gradient(270deg,transparent 0,rgba(114,137,218,0.25));
+}
+.itemMediaContainer-1Y2LAK {
+	background: linear-gradient(90deg,transparent 0,rgba(114,137,218,0.25));
+}
+.homeWrapper-3-Wh5T {
+    background-image: var(--imgNonBlurred);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 10000px var(--SecondaryBrightness);
+}
+.description-1eVELi {
+	background-image: var(--imgBlurred);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
