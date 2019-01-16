@@ -90,6 +90,7 @@ div[class*="channelTextArea-"] {
 @-webkit-keyframes unread {  
   0% { background-color: #faa61a; }
   50% { background-color: rgba(250,166,26,0.2); }
+  100% { background-color: #faa61a; }
 }
 
 .chat .new-messages-bar, .newMessagesBar-mujexs {
